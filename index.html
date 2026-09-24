@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habit Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <header class="top">
+        <h1>Habit Tracker</h1>
+        <div class="overall">
+            <div class="overallFill" class="overall-fill"></div>
+        </div>
+        <span id="overallPercent">0%</span>
+    </div>
+    </header>
+
+    <form id="appForm" class="add-form">
+        <input id="habitInput" type="text" placeholder="New Habit Name (Ex: Drink 2L of Water)" required>
+        <button type="submit">Add</button>
+    </form>
+    <div id="habitList" class="habit-list"></div>
+    <p id="emptyMsg" class="empty-msg hidden">No habits registered yet</p>
+</div>
+<div id="calendarModal" class="modal hidden">
+    <div class="modal-box">
+        <div class="modal-head">
+            <button id="prevMonth"></button>
+            <h2 id="calendarTitle">2026/09</h2>
+            <button id="nextMonth"></button>
+        </div>
+        <p id="calendarHabitName" class="modal-habit-name"></p>
+        <div id="calendarGrid" class="calendar-grid"></div>
+        <button id="closeModal" class="close-btn">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
