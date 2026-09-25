@@ -8,3 +8,6 @@
 - feat: add design - calendar-grid
 - feat: add style.css for habit tracker UI design
 - Take 1hr
+
+## Java script
+- feat: add function - Add Weekday & Day of the week
