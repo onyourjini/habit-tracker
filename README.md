@@ -6,3 +6,5 @@
 
 ## CSS
 - feat: add design - calendar-grid
+- feat: add style.css for habit tracker UI design
+- Take 1hr
