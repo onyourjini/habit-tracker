@@ -11,3 +11,4 @@
 
 ## Java script
 - feat: add function - Add Weekday & Day of the week
+- feat: Debugging / Fixing Bugs
