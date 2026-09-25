@@ -12,3 +12,4 @@
 ## Java script
 - feat: add function - Add Weekday & Day of the week
 - feat: Debugging / Fixing Bugs
+- feat: add script.js for habit tracker logic
