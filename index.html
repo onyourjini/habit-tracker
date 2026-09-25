@@ -11,13 +11,15 @@
     <header class="top">
         <h1>Habit Tracker</h1>
         <div class="overall">
-            <div class="overallFill" class="overall-fill"></div>
+            <div class="overall-bar">
+                <div id="overallFill" class="overall-fill"></div>
+            </div>
         </div>
         <span id="overallPercent">0%</span>
     </div>
     </header>
 
-    <form id="appForm" class="add-form">
+    <form id="addForm" class="add-form">
         <input id="habitInput" type="text" placeholder="New Habit Name (Ex: Drink 2L of Water)" required>
         <button type="submit">Add</button>
     </form>
@@ -37,6 +39,9 @@
     </div>
 </div>
 
+<script src="script.js"></script>
+</body>
+</html>
 <script src="script.js"></script>
 </body>
 </html>
